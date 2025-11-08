@@ -8,7 +8,7 @@ export default function CompB() {
   return (
     <div>
   
-      <h1>compB</h1>
+      <h1>from is compB</h1>
       {count}
       <button onClick={() => dispatch("increment")}>Increment</button>
       <button onClick={() => dispatch("reset")}>Reset</button>
